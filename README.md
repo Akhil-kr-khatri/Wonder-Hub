@@ -1,39 +1,53 @@
-Project Overview
+# 🌍 Wanderlust
 
-Wanderlust is a web application inspired by Airbnb, built using JavaScript (JS), HTML, CSS, Node.js, Express.js, EJS templating, Passport.js for authentication, and various other NPM packages. It follows a well-structured Model-View-Controller (MVC) architecture for efficient development and maintainability.
+**Wanderlust** is a web application inspired by **Airbnb**, designed to help users discover, list, and book unique travel accommodations. It is built using JavaScript, Node.js, Express.js, EJS, and other modern web technologies. The application follows the **MVC (Model-View-Controller)** architecture for maintainability and scalability.
 
-Key Features
+---
 
-Explore Listings:
-Users can discover a variety of listings tailored to their travel needs.
-Utilize comprehensive search filters to narrow down options based on location, price range, amenities, and more.
-Add Listings:
-Existing users can effortlessly create listings for their unique spaces.
-Provide descriptive details, captivating photos, and compelling descriptions to attract potential guests.
-Booking Management:
-Users can conveniently book available listings, enabling them to plan their adventures.
-A clear and intuitive booking interface allows for a seamless user experience.
-User Management:
-Users can register and log in securely using Passport.js authentication.
-Owners have the ability to edit or delete their own listings, ensuring complete control over their properties.
-Other users can only book listings, respecting ownership rights.
-Technology Stack
+## 🚀 Key Features
 
-Frontend:
-HTML: Core structure of web pages.
-CSS: Styling and visual design of the application.
-JavaScript: Interactivity and dynamic behavior.
-Bootstrap: Responsive design framework for a user-friendly experience across various devices.
-Backend:
-Node.js: Server-side runtime environment for building scalable applications.
-Express.js: Web framework for building robust RESTful APIs.
-EJS: Templating engine for generating dynamic HTML content.
-Passport.js: Authentication and authorization middleware for secure user management.
-NPM Packages: Additional functionalities for specific needs.
-Cloud Storage:
-Cloudinary: Cloud-based image storage and management platform for storing and handling user-uploaded listing images.
-Prerequisites
-Mapbox:To provide the exact location after booking of the sight in maps
+- **🌐 Explore Listings**  
+  Users can browse a wide range of listings using filters such as location, price range, and amenities.
 
+- **🏡 Add Your Own Listings**  
+  Registered users can create their own listings with images, descriptions, and pricing details.
 
-Contributing We welcome contributions to Wanderlust!
+- **📅 Booking Management**  
+  Users can book available listings and manage their bookings through a simple and intuitive interface.
+
+- **👥 User Management**  
+  Secure registration and login system using **Passport.js**. Listing owners can edit or delete their own listings, while guests can only book them.
+
+---
+
+## 🧰 Technology Stack
+
+### 🌐 Frontend:
+- **HTML** – Page structure  
+- **CSS** – Styling and layout  
+- **JavaScript** – Dynamic interactivity  
+- **Bootstrap** – Responsive design
+
+### 🛠️ Backend:
+- **Node.js** – Server-side runtime  
+- **Express.js** – RESTful routing and middleware  
+- **EJS** – Templating engine for dynamic views  
+- **Passport.js** – Authentication and session management  
+- **NPM Packages** – Additional functionality like flash messages, form validation, etc.
+
+### ☁️ Cloud & APIs:
+- **Cloudinary** – For image upload and management  
+- **Mapbox** – For location-based maps integrated in listing views
+
+---
+
+## 🔒 Prerequisites & Setup
+
+- **Node.js** and **npm** installed
+- **MongoDB** setup (local or cloud)
+- Create a `.env` file and include the following:
+  ```env
+  MAPBOX_TOKEN=your_mapbox_token
+  CLOUDINARY_CLOUD_NAME=your_cloud_name
+  CLOUDINARY_KEY=your_key
+  CLOUDINARY_SECRET=your_secret
