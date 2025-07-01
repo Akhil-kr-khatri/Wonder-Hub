@@ -41,13 +41,3 @@
 
 ---
 
-## 🔒 Prerequisites & Setup
-
-- **Node.js** and **npm** installed
-- **MongoDB** setup (local or cloud)
-- Create a `.env` file and include the following:
-  ```env
-  MAPBOX_TOKEN=your_mapbox_token
-  CLOUDINARY_CLOUD_NAME=your_cloud_name
-  CLOUDINARY_KEY=your_key
-  CLOUDINARY_SECRET=your_secret
